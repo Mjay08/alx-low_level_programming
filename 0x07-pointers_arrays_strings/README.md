@@ -1,1 +1,1 @@
-0x06. C - even more pointers, arrays and strings
+0x07. C - even more pointers, arrays and strings
