@@ -1,27 +1,19 @@
-#include <stdio.h>
-
 #include "main.h"
 
 /**
-* _memcpy - copy memory area
-* @dest: char array to copy into
-* @src: char array to copy from
-* @n: number of elements to copy
-* Return: pointer to `dest`
+*_memcpy - copy string 1 to string 2 until limit is reached
+* @dest: destination string to copy into
+* @src: source string to copy from
+* @n: number of bytes to check
+* Return: destination string
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *yolo;
+	unsigned int i;
 
-	yolo = dest;
-	while (n > 0)
-	{
-		*dest = *src;
-		dest++;
-		src++;
-		n--;
-	}
+	for (i = 0; i < n; i++)
+		dest[i] = src[i];
 
-	return (yolo);
+	return (dest);
 }
