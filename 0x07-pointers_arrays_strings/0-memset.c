@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
 * _memset - fill string with specific character to a limit
