@@ -1,9 +1,9 @@
 #include "variadic_functions.h"
 
 /**
- * * print_all - prints all
- * * @format: param
- * */
+ * print_all - prints all
+ * @format: param
+ */
 void print_all(const char * const format, ...)
 {
 	va_list valist;
